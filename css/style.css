@@ -1,0 +1,99 @@
+body {
+    font-family: 'calibri', 'Gill Sans MT', arial, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+    font-weight: bold;
+}
+header{
+    background-color: white;
+    width: 100%;
+    font-family: 'calibri', 'Gill Sans MT', arial, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: lightgray;
+    display: inline-block;
+    width: 80%;
+}
+
+nav a {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+main{
+    background-color: white;
+    font-size: 100%;
+    width: 80%;
+}
+
+div {
+    background-color: yellow;
+    width: 100%;
+}
+
+footer{
+    background-color: lightgray;
+    font-style: italic;
+    width: 80%;
+}
+
+li {
+  /* padding: 0 15px; */
+}
+
+h1 {
+    text-align: center;
+    font-family: georgia, 'Trebuchet MS', calibri;
+    color: darkblue;
+    font-style: italic;
+  }
+
+p {
+    line-height: 1.6;
+    width: 80%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.horizontal-center {
+  display: flex;                  /* Arranges list items side-by-side */
+  justify-content: center;        /* Centers them horizontally */
+  list-style-type: none;          /* Removes default bullet points */
+  padding: 0;                     /* Clears default indentation padding */
+  margin: 0; 
+  gap: 10px;                     
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.grid-item {
+  align-items: center;
+  row-gap: 10px;
+  width: 100%;
+}
+
+.image-container-flex {
+  display: flex;        /* Sets up the horizontal flex layout */
+  gap: 10px;            /* Adds a clean space between the images */
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container-flex img {
+  width: 15%;          /* Makes images fill their flexible space */
+  max-width: 20%;    /* Restricts images to equal parts (change to 50% for two images) */
+  height: auto;         /* Maintains original image proportions */
+  gap: 10px;
+}
