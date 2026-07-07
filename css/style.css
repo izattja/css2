@@ -71,10 +71,9 @@ ul.horizontal-center {
 .grid-container {
   display: grid;
   grid-template-columns: 40% 40%;
-  /*gap: 10px; */
   justify-content: space-evenly;
   align-items: center;
-  /*row-gap: 10px;*/
+  row-gap: 10px;
 }
 
 .grid-item {
