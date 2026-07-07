@@ -71,10 +71,10 @@ ul.horizontal-center {
 .grid-container {
   display: grid;
   grid-template-columns: 40% 40%;
-  gap: 10px; 
-  justify-content: center;
+  /*gap: 10px; */
+  justify-content: space-evenly;
   align-items: center;
-  row-gap: 10px;
+  /*row-gap: 10px;*/
 }
 
 .grid-item {
@@ -88,7 +88,7 @@ ul.horizontal-center {
   gap: 10px;            /* Adds a clean space between the images */
   max-width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .image-container-flex img {
